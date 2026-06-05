@@ -7,6 +7,7 @@ from docx import Document
 model = joblib.load("resume_classifier.pkl")
 tfidf = joblib.load("tfidf_vectorizer.pkl")
 
+
 # --- Sidebar ---
 st.sidebar.title("Resume Classification Project")
 st.sidebar.markdown("**Developed by Thangaraj** – AI/ML Intern (NLP Project)")
